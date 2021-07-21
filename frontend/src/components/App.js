@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import HomePage from "./HomePage";
+import JoinRoomPage from "./JoinRoomPage";
+import CreateRoomPage from "./CreateRoomPage";
 import {
   BrowserRouter as Router,
   Route,
@@ -8,8 +10,6 @@ import {
   Redirect,
   Link,
 } from "react-router-dom";
-import JoinRoomPage from "./JoinRoomPage";
-import CreateRoomPage from "./CreateRoomPage";
 
 export default class App extends Component {
   constructor(props) {

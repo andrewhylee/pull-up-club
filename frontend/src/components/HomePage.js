@@ -6,6 +6,6 @@ export default class HomePage extends Component {
   }
 
   render() {
-    return <h1>YOLOOOOOOO</h1>;
+    return <h1>Hello this is the Homepage</h1>;
   }
 }
